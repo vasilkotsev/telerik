@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+</head>
+<body>
+	<div id="wrapper">
+	    <div id="logo-container">
+	    	<img src="images/calculator_icon.png">
+	    	<span>Calculator</span>
+			<div id="right-btn-holder">
+	    		<img src="images/top-right-btns.png">
+	    	</div>
+	    </div>
+		<div id="inside_container">
+            
+            <div id="menu-container">
+                <ul>
+                    <li><a href="#">View</a></li>
+                    <li><a href="#">Edit</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+            </div>
+            <div id="body-container">
+            	<div id="display">
+            		<span>8854455</span>
+            	</div>
+            	<div id="bit-digits">
+            		<div id="row1">
+		                <span>0000</span>
+		                <span>0000</span>
+		                <span>0000</span>
+		                <span>0000</span>
+		                <span>0000</span>
+		                <span>0000</span>
+		                <span>0000</span>
+		                <span>0000</span>
+            		</div>
+		            <div id="row2">
+		                <span>63</span>
+		                <span>47</span>
+		                <span>32</span>
+		            </div>
+		            <div id="row3">
+		                <span>0000</span>
+		                <span>0000</span>
+		                <span>0000</span>
+		                <span>0000</span>
+		                <span>0000</span>
+		                <span>0000</span>
+		                <span>0000</span>
+		                <span>0000</span>
+		            </div>
+		            <div id="row4">
+		                <span>31</span>
+		                <span>15</span>
+		                <span>0</span>
+		            </div>
+		        </div>
+		        <div id="counting-system">
+		        	 <form>
+					  <input id="hex" type="radio" name="counting" value="Hex">
+					  <label for="hex">Hex</label>
+					  <input id="dec" type="radio" name="counting" value="Dec"checked> 
+					  <label for="dec">Dec</label>
+					  <input id="oct" type="radio" name="counting" value="Oct"> 
+					  <label for="oct">Oct</label>
+					  <input id="bin" type="radio" name="counting" value="Bin">
+					  <label for="bin">Bin</label>
+					</form> 
+		        </div>
+		        <div id="data-type-system">
+		        	<form>
+					  <input id="qword" type="radio" name="data" value="Qword">
+					  <label for="qword">Qword</label>
+					  <input id="dword" type="radio" name="data" value="Dword"checked> 
+					  <label for="dword">Dword</label>
+					  <input id="word" type="radio" name="data" value="Word"> 
+					  <label for="word">Word</label>
+					  <input id="byte" type="radio" name="data" value="Byte">
+					  <label for="byte">Byte</label>
+					</form>
+		        </div>
+		    	<div id="btn_holder1">
+		    		<div class="btn1 non_active"></div>
+		    		<div class="btn1 mod shadow">Mod</div>
+		    		<div class="btn1 mod shadow">(</div>
+		    		<div class="btn1 mod shadow">)</div>
+		    		<div class="btn1 mod shadow">RoL</div>
+		    		<div class="btn1 mod shadow">RoR</div>
+		    		<div class="btn1 mod shadow">Or</div>
+		    		<div class="btn1 mod shadow">Xor</div>
+		    		<div class="btn1 mod shadow">Lsh</div>
+		    		<div class="btn1 mod shadow">Rsh</div>
+		    		<div class="btn1 mod shadow">Not</div>
+		    		<div class="btn1 mod shadow">And</div>		
+		    	</div>
+		    	<div id="btn_holder2">
+		    		<div class="btn1 non_active">A</div>
+		    		<div class="btn1 non_active">B</div>
+		    		<div class="btn1 non_active">C</div>
+		    		<div class="btn1 non_active">D</div>
+		    		<div class="btn1 non_active">E</div>
+		    		<div class="btn1 non_active">F</div>
+		    	</div>
+		    	<div id="btn_big_holder">
+			    	<div class="btn1 bigzone_firstline shadow">MC</div>
+			    	<div class="btn1 bigzone_firstline shadow">MR</div>
+			    	<div class="btn1 bigzone_firstline shadow">MS</div>
+			    	<div class="btn1 bigzone_firstline shadow">M+</div>
+			    	<div class="btn1 bigzone_firstline shadow">M-</div>
+			    	<div class="btn1 mod">←</div>
+			    	<div class="btn1 mod">CE</div>
+			    	<div class="btn1 mod">C</div>
+			    	<div class="btn1 mod">±</div>
+			    	<div class="btn1 non_active">√</div>
+			    	<div class="btn1 digits">7</div>
+			    	<div class="btn1 digits">8</div>
+			    	<div class="btn1 digits">9</div>
+			    	<div class="btn1 mod">⁄</div>
+			    	<div class="btn1 non_active">%</div>
+			    	<div class="btn1 digits">4</div>
+			    	<div class="btn1 digits">5</div>
+			    	<div class="btn1 digits">6</div>
+			    	<div class="btn1 mod">∗</div>
+			    	<div class="btn1 non_active">1/x</div>
+			    	<div class="btn1 digits">1</div>
+			    	<div class="btn1 digits">2</div>
+			    	<div class="btn1 digits">3</div>
+			    	<div class="btn1 mod">−</div>
+			    	<div class="btn_third mod">=</div>
+			    	<div class="btn_secondary digits">0</div>
+			    	<div class="btn1 non_active">.</div>
+			    	<div class="btn1 mod">+</div>
+		    	</div>
+		    </div>
+		</div>
+	</div>
+
+</body>
+</html>

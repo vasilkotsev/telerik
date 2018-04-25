@@ -1,0 +1,48 @@
+﻿body {
+	margin: 0;
+	padding: 0;
+	background-color: #282828;
+}
+
+div {
+	height: 176px;
+	width: 122px;
+	background: white;
+	margin: 300px 600px;
+
+}
+
+ul {
+	list-style-type: none;
+	text-indent: 5px;
+	padding: 0;
+
+}
+
+ul li a {
+	text-indent: 15px;
+	display: none;
+}
+
+ul a {
+	text-decoration: none;
+	color: #888888;
+	
+}
+
+ul > a {
+	color: #000033;
+}
+
+ul:hover li a {
+	display: block;
+}
+
+ul:hover > a {
+	text-decoration: underline;
+}
+
+ul {
+	margin:0;
+	padding:0;
+}
